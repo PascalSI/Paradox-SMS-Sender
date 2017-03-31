@@ -1,0 +1,8 @@
+﻿<Application
+    x:Class="Paradox_SMS_Sender.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Paradox_SMS_Sender"
+    RequestedTheme="Light">
+
+</Application>

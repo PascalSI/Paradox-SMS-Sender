@@ -1,0 +1,16 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Paradox_SMS_Sender"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Maps="using:Windows.UI.Xaml.Controls.Maps"
+    x:Class="Paradox_SMS_Sender.MapPageSMS"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <Maps:MapControl x:Name="mapWorld" HorizontalAlignment="Left" VerticalAlignment="Top" MapServiceToken="63iQrOSX8SiGjvLqWuh2~70Y87A-Za269RSDNgMfBEg~AtplIeFDhq_x6CVevOafuT3y4iuoiBDw7T09Cu4iiArN8XuV-9V9eYpDiKKo22w6" Width="360" Height="640"/>
+
+    </Grid>
+</Page>
